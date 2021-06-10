@@ -6,9 +6,11 @@ int main()
     int num, current_mark;
     cin >> num;
 
-    ofstream outdata;
+    ofstream outdata1;
+    ofstream outdata2;
+    ofstream outdata3;
 
-    outdata.open("physics.dat");
+    outdata1.open("physics.dat");
     if (!outdata)
     {
         cout << "Error: file could not be opened" << endl;
@@ -21,9 +23,9 @@ int main()
         current_mark = ((rand() % 50) + 51);
         outdata << current_mark << endl;
     }
-    outdata.close();
+    outdata1.close();
 
-    outdata.open("chemistry.dat");
+    outdata2.open("chemistry.dat");
     if (!outdata)
     {
         cout << "Error: file could not be opened" << endl;
@@ -35,9 +37,9 @@ int main()
         current_mark = ((rand() % 50) + 51);
         outdata << current_mark << endl;
     }
-    outdata.close();
+    outdata2.close();
 
-    outdata.open("maths.dat");
+    outdata3.open("maths.dat");
     if (!outdata)
     {
         cout << "Error: file could not be opened" << endl;
@@ -49,7 +51,7 @@ int main()
         current_mark = ((rand() % 50) + 51);
         outdata << current_mark << endl;
     }
-    outdata.close();
+    outdata3.close();
 
     return 0;
 }
