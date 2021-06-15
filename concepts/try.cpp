@@ -1,8 +1,8 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
- 
+
 int main()
 {
-system("C:\\WINDOWS\\System32\\shutdown /s");
-return 0;
+    system("C:\\WINDOWS\\System32\\cd Desktop");
+    return 0;
 }

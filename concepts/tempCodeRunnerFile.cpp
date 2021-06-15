@@ -1,1 +1,1 @@
-srand(time(0));
+int days3 = days[i];
