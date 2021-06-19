@@ -1,1 +1,0 @@
-int days3 = days[i];
